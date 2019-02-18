@@ -1,3 +1,0 @@
-While, even I have include calculation of DICE in the code, it doesn't really works. This is beacasue the truth I have, taken from REFUGE challenge, has three classes: Background, Cup, and Dics. While in my mini-project, I combined cup and disc together as one class to segment. To correct this issue, I will have to change all the grand truth in REFURE, which will take time.
-
-Meanshift method, in comperasion with K-mean, has better performence. K-mean method is somewhat a Hit-or-Miss method: it doesn't guarentee indentical restults. So, alternatively, I will just show some good/bad segmentation results.
