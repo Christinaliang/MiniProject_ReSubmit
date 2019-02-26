@@ -1,14 +1,10 @@
-For the DICE index, even I have include calculation of DICE in the code, it doesn't really works. 
+This demo utilzed REFUGE challenge database. 
+The REFUGE challenge is a segmenation challenge, segmenting optic disc from other parts of retina on fundus images.
 
-This is cased by the unsuitabilty of the database I employed.
-The image dataset at use, taken from REFUGE challenge, has three classes: Background, Cup, and Dics.
 
-While in my mini-project, if the cluster number is set greater than three, i.e., Optical Disc, retina, and black corner frame,
-the clustering tends to segment retina into different areas, instead of segmenting optical Disc into cup and Disc.
-
-Meanshift method, in comperasion with K-mean, has better performence, since it doen't require number of clusters to be defined.
-
-K-mean method is somewhat a Hit-or-Miss method: it doesn't guarentee indentical restults over different runs/trials, 
-therefore, using DICE is not very suitable. 
-
-So, alternatively, I will just show some good/bad segmentation results.}
+TO RUN:
+1:Download every file and two image forlders;
+2:Open "main.mlx";
+3:Change working path under Matlab accordingly;
+4:I suggest you only download five PAIRS of images and truths for just a quick demo. 
+By pair, image and truth need to have same name.
